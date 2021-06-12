@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="180dp"
+        android:layout_height="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="279dp"
+        android:text="Record"
+        app:backgroundTint="#F80808" />
+
+</RelativeLayout>
